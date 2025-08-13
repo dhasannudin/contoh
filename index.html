@@ -13,7 +13,7 @@ document.getElementById("formA").addEventListener("submit", function(e) {
     email: e.target.email.value
   };
 
-  fetch("URL_WEB_APP", { // Ganti URL_WEB_APP dengan URL dari Apps Script
+  fetch("https://script.google.com/macros/s/AKfycbwpd9EnwLMYD2HBpNMaTRHDJqUeD3jjKEhCbeisCRTmmkZGZ8fwxZXztOLItWT4mJLFnA/exec", { // Ganti URL_WEB_APP dengan URL dari Apps Script
     method: "POST",
     body: JSON.stringify(data),
     headers: {
