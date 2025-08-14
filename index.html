@@ -177,7 +177,7 @@
             timestamp: serverTimestamp()
           };
 
-          await addDoc(collection(window.db, "truck_activities"), activityData);
+          await addDoc(collection(window.db, "shipment_kijing"), activityData);
 
           if (successMessage) {
             successMessage.style.display = 'block';
